@@ -24,13 +24,13 @@ int main(void) {
     printf("Your letter grade for CMPSC 131 is B-.\n");
   } else if (gradeDub >= 77.0) {
     printf("Your letter grade for CMPSC 131 is C+.\n");
-  } else if (gradeDub >= 73) {
+  } else if (gradeDub >= 73.0) {
     printf("Your letter grade for CMPSC 131 is C.\n");
-  } else if (gradeDub >= 70) {
+  } else if (gradeDub >= 70.0) {
     printf("Your letter grade for CMPSC 131 is C-.\n");
-  } else if (gradeDub >= 60) {
+  } else if (gradeDub >= 60.0) {
     printf("Your letter grade for CMPSC 131 is D.\n");
-  } else if (gradeDub < 60) {
+  } else if (gradeDub < 60.0) {
     printf("Your letter grade for CMPSC 131 is F.\n");
   } else {
     printf("Error Calculating Grade");
