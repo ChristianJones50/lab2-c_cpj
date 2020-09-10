@@ -13,39 +13,26 @@ int main(void) {
   double gradeDub = atof(grade);
   // Finds the corresponding letter to the grade point
   if (gradeDub >= 93.0) {
-    char* letter = "A";
-    printf("Your letter grade for CMPSC 131 is %s.", letter);
+    printf("Your letter grade for CMPSC 131 is A.\n");
   } else if (gradeDub >= 90.0) {
-    char* letter = "A-";
-    printf("Your letter grade for CMPSC 131 is %s.", letter);
+    printf("Your letter grade for CMPSC 131 is A-.\n");
   } else if (gradeDub >= 87.0) {
-    char* letter = "B+";
-    printf("Your letter grade for CMPSC 131 is %s.", letter);
+    printf("Your letter grade for CMPSC 131 is B+.\n");
   } else if (gradeDub >= 83.0) {
-    char* letter = "B";
-    printf("Your letter grade for CMPSC 131 is %s.", letter);
+    printf("Your letter grade for CMPSC 131 is B.\n");
   } else if (gradeDub >=  80.0) {
-    char* letter = "B-";
-    printf("Your letter grade for CMPSC 131 is %s.", letter);
+    printf("Your letter grade for CMPSC 131 is B-.\n");
   } else if (gradeDub >= 77.0) {
-    char* letter = "C+";
-    printf("Your letter grade for CMPSC 131 is %s.", letter);
+    printf("Your letter grade for CMPSC 131 is C+.\n");
   } else if (gradeDub >= 73) {
-    char* letter = "C";
-    printf("Your letter grade for CMPSC 131 is %s.", letter);
+    printf("Your letter grade for CMPSC 131 is C.\n");
   } else if (gradeDub >= 70) {
-    char* letter = "C-";
-    printf("Your letter grade for CMPSC 131 is %s.", letter);
+    printf("Your letter grade for CMPSC 131 is C-.\n");
   } else if (gradeDub >= 60) {
-    char* letter = "D";
-    printf("Your letter grade for CMPSC 131 is %s.", letter);
+    printf("Your letter grade for CMPSC 131 is D.\n");
   } else if (gradeDub < 60) {
-    char* letter = "F";
-    printf("Your letter grade for CMPSC 131 is %s.", letter);
+    printf("Your letter grade for CMPSC 131 is F.\n");
   } else {
     printf("Error Calculating Grade");
   }
-  
-  
-
 }
